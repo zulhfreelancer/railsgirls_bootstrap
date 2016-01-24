@@ -11,19 +11,18 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
+  <div class="form-group">
+    <label>Name</label>
+    <%= f.text_field :name, class: "form-control" %>
   </div>
-  <div class="field">
-    <%= f.label :description %><br>
-    <%= f.text_area :description %>
+  <div class="form-group">
+    <label>Description</label>
+    <%= f.text_area :description, rows: 3, class: "form-control" %>
   </div>
-  <div class="field">
-    <%= f.label :picture %><br>
+  <div class="form-group">
+    <label>Picture</label>
     <%= f.file_field :picture %>
   </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+  <%= f.submit "Save Idea", class: "btn btn-primary" %>
+
 <% end %>
