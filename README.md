@@ -1,6 +1,8 @@
 ### RailsGirls KL Idea App
 
-This is the idea app based on the [RailsGirls Guide](http://guides.railsgirls.com/app/).
+This is the Bootstrap-ish Idea app that we've created together at RailsGirls KL, 30th Jan 2016.
+
+[Read the tutorial here](https://github.com/zulhfreelancer/railsgirls_bootstrap_guide)
 
 ###### How to clone this project?
 
